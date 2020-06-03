@@ -6,9 +6,6 @@ from urllib.parse import urlparse, parse_qs
 from lxml.html import fromstring as parse_html
 
 
-__version__ = '0.1.0'
-
-
 def parse(html_text, today=None):
     html_tree = parse_html(html_text)
     return [parse_post(post_el, today=today)

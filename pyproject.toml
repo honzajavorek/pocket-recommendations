@@ -1,6 +1,6 @@
 [tool.poetry]
 name = "pocket-recommendations"
-version = "0.1.0"
+version = "0.1.1"
 description = "Unofficial library to get a feed of one's Pocket recommendations"
 authors = ["Honza Javorek <mail@honzajavorek.cz>"]
 license = "MIT"

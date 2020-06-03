@@ -3,6 +3,10 @@ name = "pocket-recommendations"
 version = "0.1.0"
 description = "Unofficial library to get a feed of one's Pocket recommendations"
 authors = ["Honza Javorek <mail@honzajavorek.cz>"]
+license = "MIT"
+readme = "README.md"
+repository = "https://github.com/honzajavorek/pocket-recommendations"
+documentation = "https://github.com/honzajavorek/pocket-recommendations#readme"
 
 [tool.poetry.dependencies]
 python = "^3.6"

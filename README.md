@@ -51,7 +51,7 @@ You can specify the date when the HTML has been downloaded to get the relative d
 >>> items = pocket_recommendations.parse(html_text, today=date(2020, 6, 3))
 >>> pprint(items[0])
 {'pocket_comment': 'Šablona na váš úspěšný HackerNews post',
- 'pocket_recommended_at': date(2020, 6, 2),
+ 'pocket_recommended_at': datetime.date(2020, 6, 2),
  'pocket_url': 'http://getpocket.com/redirect?&url=https%3A%2F%2Fsaagarjha.com%2Fblog%2F2020%2F05%2F10%2Fwhy-we-at-famous-company-switched-to-hyped-technology%2F&h=eff6d8cac22c9b475463d037037b0efdcf44b762c9b0b7913de2104cab5fa67d',
  'title': 'Why we at $FAMOUS_COMPANY Switched to $HYPED_TECHNOLOGY',
  'url': 'https://saagarjha.com/blog/2020/05/10/why-we-at-famous-company-switched-to-hyped-technology/'}

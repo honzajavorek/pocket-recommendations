@@ -11,13 +11,15 @@ $ curl "https://getpocket.com/@honzajavorek" > getpocket-com-honzajavorek.html
 
 ```
 
+In your Python program, have the HTML ready as a string:
+
 ```python
 >>> from pathlib import Path
 >>> html = Path('getpocket-com-honzajavorek.html').read_text()
 
 ```
 
-Then, in your Python program, you can use this library to parse the HTML:
+Now you can use this library to parse the HTML:
 
 ```python
 >>> import pocket_recommendations

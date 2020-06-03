@@ -1,0 +1,15 @@
+[tool.poetry]
+name = "pocket-recommendations"
+version = "0.1.0"
+description = "Unofficial library to get a feed of one's Pocket recommendations"
+authors = ["Honza Javorek <mail@honzajavorek.cz>"]
+
+[tool.poetry.dependencies]
+python = "^3.6"
+
+[tool.poetry.dev-dependencies]
+pytest = "^4.6"
+
+[build-system]
+requires = ["poetry>=0.12"]
+build-backend = "poetry.masonry.api"

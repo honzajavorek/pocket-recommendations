@@ -2,6 +2,9 @@
 
 Unofficial library to get a feed of one's Pocket recommendations
 
+## Status
+
+After reading [Four Thousand Weeks](https://www.oliverburkeman.com/books) I realized that Pocket is one of my infinite to-do lists. I stopped using it and it makes no sense for me to maintain this library. Feel free to fork this or contact me if you feel like continuing the development.
 
 ## Usage
 
